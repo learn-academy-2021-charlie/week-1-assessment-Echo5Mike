@@ -36,17 +36,17 @@ var index = 1
 // --------------------4) What will this log?
 
 var weekendDays = ["saturday", "sunday"]
-//console.log(weekendDays.toUpperCase())
+console.log(weekendDays .toUpperCase())
 
 // a) Your answer: I belive that it will call upon weekendDays array and capatlize all the charters
 // b) Verify and explain: When I run it, it gives me an error "TypeError: weekendDays.toUpperCase is not a function",  
-// I feel that it should be upercasing the string of weekendDays 
+// I feel that it should be upercasing the string of weekendDays, but I don't know if I should be calling on ...... is it because it calling on weekendDays.toUpperCase and that is not var???
 
 
 // --------------------5) What will this log?
 
 var dataTypes = ["number", "string", "Boolean"]
-// console.log(typeof dataTypes.length)
+//console.log(typeof dataTypes.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer:Altough I havn't used it, I think it should tell you the primative lanuage, in this case the since it is asking for the length it will tell the = number.
+// b) Verify and explain: Correct, since we are asking for the length the data type will be a number.

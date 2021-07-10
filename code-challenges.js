@@ -9,10 +9,29 @@
 
 // --------------------1) Create a function that takes in a number and determines if a temperature is below boiling point, at boiling point or above boiling point. Boiling point is 212 degrees Fahrenheit.
 // Use the test variables provided below. Expected output: "35 is below boiling point", "350 is above boiling point", "212 is at boiling point"
-
+// there needs to be a function, where variables can be INPUT and RETURN will tell us if that tempture is above or below 212 degrees.
 var temp1 = 35
 var temp2 = 350
 var temp3 = 212
+var temp4 = "green"
+
+
+const tempture = (temp) => {
+    if (temp > 212){
+        return `${temp} is ABOVE the boiling point of 212 degress`
+    } else if(temp < 212) {
+        return `${temp} is BELOW the boiling point of 212 degress`
+    } else if (temp == 212) {
+        return `${temp} IS AT the boiling point of 212 degress`
+    } else {
+        return "Please enter a numerical temperature"
+    }
+}
+console.log(tempture(temp1))
+console.log(tempture(temp2))
+console.log(tempture(temp3))
+console.log(tempture(temp4))
+
 
 
 
