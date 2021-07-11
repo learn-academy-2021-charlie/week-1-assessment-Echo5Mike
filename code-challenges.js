@@ -27,19 +27,55 @@ const tempture = (temp) => {
         return "Please enter a numerical temperature"
     }
 }
-console.log(tempture(temp1))
-console.log(tempture(temp2))
-console.log(tempture(temp3))
-console.log(tempture(temp4))
+//console.log(tempture(temp1))
+//console.log(tempture(temp2))
+//console.log(tempture(temp3))
+//console.log(tempture(temp4))
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 // --------------------2) Create a function that takes in two arrays of numbers and returns a single array with all the values sorted least to greatest.
 // Use the test variables provided below. Expected output: [-9, -7, 0, 3, 7, 8, 9, 13, 22, 36]
+///// step 1 concade both arrays 
+// step 2 sort them "somehow"
+// step 3 log them
+//var myNumbers1 = [3, 7, 0, 36, -9]
+//var myNumbers2 = [8, -7, 22, 9, 13]
 
-var myNumbers1 = [3, 7, 0, 36, -9]
-var myNumbers2 = [8, -7, 22, 9, 13]
+var num1 = [3, 7, 0, 36, -9]
+var num2 = [8, -7, 22, 9, 13]
+
+var theNums = ((num1.concat(num2)).join()) //how do I get this string back into number to sort.
+
+
+const sortingHat = (theNums) => {
+    return "something"
+}
+  
+console.log(sortingHat())
+
+
+
+
+
+
+
+
+
 
 
 
