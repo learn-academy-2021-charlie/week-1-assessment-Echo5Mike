@@ -7,33 +7,33 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. What is a function? Why would you use one?
 
-  Your answer:
+  Your answer: A function is like a math equation that has variables and that output a soulution 
 
-  Researched answer:
+  Researched answer: A function is a piece of code that runs and returns a value.
 
 
 
 2. In regards to functions, what is the difference between an argument and a parameter?
 
-  Your answer:
+  Your answer: a parameter is almost like a equation that you want to have sovled, and an agurment are the variables for the parameters
 
-  Researched answer:
+  Researched answer: a parameter is a way to pass data into your code, arguments are the raw values that you want your function to work on.
 
 
 
 3. What is an index? What is the difference between index and value?
 
-  Your answer:
+  Your answer: An index is the how data is stored.  Value is the type of data in a giving index.  The value of red is 0 [red, green, blue] 
 
-  Researched answer:
+  Researched answer: 
 
 
 
 4. What is a built-in method?
 
-  Your answer:
+  Your answer: A bulit in method is a function that the creators of JS have short cut them into the JS when you start to type
 
-  Researched answer:
+  Researched answer: JS has several built in methods that have a pre determinded function that are often used for devlopers to reduce the use rewrite function that is often used.
 
 
 
