@@ -56,19 +56,26 @@ const tempture = (temp) => {
 //var myNumbers1 = [3, 7, 0, 36, -9]
 //var myNumbers2 = [8, -7, 22, 9, 13]
 
-var num1 = [3, 7, 0, 36, -9]
-var num2 = [8, -7, 22, 9, 13]
+//var theNums = ((num1.concat(num2)).join()) //how do I get this string back into number to sort.
+//var theNums = num2.concat(num1)
+//var theNumsS = (num1 + num2)
 
-var theNums = ((num1.concat(num2)).join()) //how do I get this string back into number to sort.
-
-
-const sortingHat = (theNums) => {
-    return "something"
-}
-  
-console.log(sortingHat())
-
-
+// const number = [ 1, 2, 3, 43]                            I found this awnser on youtube
+// number.sort(compare)
+// function compare(a, b) {
+//     return a -b
+//}
+//console.log(number)
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// var num1 = [3, 7, 0, 36, -9]
+// var num2 = [8, -7, 22, 9, 13]
+// theNums = num1.concat(num2).sort()
+// theNums.sort(sortingHat)
+// function sortingHat(a, b){
+//     return a - b
+// }
+// console.log(theNums)
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
@@ -81,9 +88,38 @@ console.log(sortingHat())
 
 // --------------------3) Create a function that takes in a string of a single word and returns the string with all letters reversed.
 // Use the test variables provided below. Expected output: "ovarb", "eilrahc"
-
+// step 1 make a function that will poop out the String
+// step 2 make a figure out how to reverse
+// step 3 try to make the revserse a part of the funtion.
 var myString1 = "bravo"
 var myString2 = "charlie"
+var myString3 = (myString1.concat(myString2))
+
+const rev = (any) => {
+    return any.split("")
+}
+         
+
+
+// console.log(rev(myString1).reverse())
+// console.log(rev(myString2).reverse())
+console.log(rev(myString3).reverse())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
