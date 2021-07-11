@@ -36,7 +36,7 @@ var index = 1
 // --------------------4) What will this log?
 
 var weekendDays = ["saturday", "sunday"]
-console.log(weekendDays .toUpperCase())
+console.log(weekendDays.toUpperCase())
 
 // a) Your answer: I belive that it will call upon weekendDays array and capatlize all the charters
 // b) Verify and explain: When I run it, it gives me an error "TypeError: weekendDays.toUpperCase is not a function",  

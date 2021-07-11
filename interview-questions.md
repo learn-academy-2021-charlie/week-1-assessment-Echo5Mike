@@ -39,15 +39,15 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 5. Give a brief description of proper pair programming techniques. What are the roles of each person?
 
-  Your answer:
+  Your answer: With pair programming, you have a driver who is typing out the thought process of the navigotor.  The navigotor is the person that is working out the code, or explaining telling the driver what to code to type.
 
-  Researched answer:
+  Researched answer: Pair programming is a software development technieque where two programers work together on 1 workstation as a driver and navitgator to help address and fix problem that they encoutner. 
 
 
 
 6. What is something we did in class this week you found helpful?  
 
-  Your answer:
+  Your answer: I think recording the lectures and having them follow the syllabus is very helpfull, for when you need to look back how something was done.
 
 
 
@@ -55,12 +55,12 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 Research and define the following terms to the best of your ability.
 
-1. Iteration:
+1. Iteration: to repeate a privious process but with a change, usually an upgrade
 
-2. Higher Order Functions:
+2. Higher Order Functions: is a function that takes in a function and outputs another function.
 
-3. Jest:
+3. Jest: is a framwork that makes sure that JS is working correct.
 
-4. Classes:
+4. Classes: is a template for a JS object
 
-5. React:
+5. React: is JS libary that is used to build interfaces.
