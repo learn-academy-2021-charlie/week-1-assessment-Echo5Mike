@@ -10,42 +10,43 @@
 var cohort = "Charlie 2021"
 // console.log(cohort.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: I belive that it will display the number of charters in var cohort =10
+// b) Verify and explain: I was right, but I don't know how to count =11
 
 
 // --------------------2) What will this log?
 
 var greeting = "Hello World!"
-// console.log(greeting[3])
+//console.log(greeting[3])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: I belive that it will call upon the index charter in position 3 in var greetings = l
+// b) Verify and explain: Correct, it did call on "l"
 
 
 // --------------------3) What will this log?
 
 var languages = ["JavaScript", "Ruby", "Python", "C++"]
 var index = 1
-// console.log(languages[index])
+//console.log(languages[index])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: Since this is an array, I belive that it will call the string in position 1 = JavaScript
+// b) Verify and explain: It logged in Ruby, because it is a Zero indexed and Java would be 0
 
 
 // --------------------4) What will this log?
 
 var weekendDays = ["saturday", "sunday"]
-// console.log(weekendDays.toUpperCase())
+console.log(weekendDays.toUpperCase())
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: I belive that it will call upon weekendDays array and capatlize all the charters
+// b) Verify and explain: When I run it, it gives me an error "TypeError: weekendDays.toUpperCase is not a function",  
+// I feel that it should be upercasing the string of weekendDays, but I don't know if I should be calling on ...... is it because it calling on weekendDays.toUpperCase and that is not var???
 
 
 // --------------------5) What will this log?
 
 var dataTypes = ["number", "string", "Boolean"]
-// console.log(typeof dataTypes.length)
+//console.log(typeof dataTypes.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer:Altough I havn't used it, I think it should tell you the primative lanuage, in this case the since it is asking for the length it will tell the = number.
+// b) Verify and explain: Correct, since we are asking for the length the data type will be a number.
